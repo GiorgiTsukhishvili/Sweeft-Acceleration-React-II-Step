@@ -1,0 +1,29 @@
+.list-item {
+  width: 25%;
+}
+
+.list-item a:link,
+.list-item a:visited {
+  text-decoration: none;
+}
+
+.list-item-conent {
+  margin: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.list-item-conent img {
+  width: 100%;
+}
+
+.list-item-content-description {
+  padding: 2px 10px;
+  color: black;
+}
+
+@media only screen and (max-width: 990px) {
+  .list-item {
+    width: 50%;
+  }
+}

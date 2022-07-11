@@ -1,0 +1,16 @@
+.users-history {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 0 10px;
+}
+
+.users-history-each {
+  display: flex;
+  gap: 8px;
+}
+
+.users-history-each span {
+  transform: translateY(15px);
+  font-size: 120%;
+}

@@ -1,0 +1,94 @@
+.profile-main-div {
+  max-width: 1200px;
+  margin: 0 auto;
+  border-width: 1px;
+  border-style: groove;
+  border-color: rgba(154, 154, 154, 0.318);
+  border-image: initial;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.main-header img {
+  height: 200px;
+}
+
+.left-info,
+.right-info {
+  margin-top: 10px;
+  display: block;
+  margin-inline-start: 2px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+  border-width: 2px;
+  border-style: groove;
+  border-color: rgb(192, 192, 192);
+  border-image: initial;
+}
+
+.left-info {
+  margin-left: 20px;
+  width: 100%;
+  position: relative;
+}
+
+.left-info span,
+.right-info span {
+  position: absolute;
+  top: -12px;
+  background-color: white;
+  padding: 0 2px;
+}
+
+.left-info-top {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.left-top-bottom {
+  margin-top: 20px;
+}
+
+.left-top-bottom p,
+.right-info p {
+  margin: 0;
+}
+
+.right-info {
+  width: 240px;
+  position: relative;
+}
+
+.right-info-top {
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 990px) {
+  .main-header {
+    flex-direction: column;
+  }
+
+  .main-header img {
+    height: 200px;
+    width: 100%;
+  }
+
+  .left-info {
+    margin-right: 20px;
+    width: 97%;
+  }
+
+  .right-info {
+    width: 97%;
+  }
+}
